@@ -1,23 +1,40 @@
-# 🌍 Climate Change Analysis & Prediction
+
+# 🌍 Climate Change Analysis & Temperature Prediction
 
 ## 📌 Project Overview
-This project analyzes global temperature trends and predicts future temperature using machine learning.
+This project analyzes global temperature trends using historical climate data and predicts future temperature using machine learning.
 
-## 📊 Features
-- Data cleaning and preprocessing
+## 🎯 Objectives
+- Analyze temperature trends over time
+- Compare different countries/cities
+- Build a prediction model
+- Understand climate change patterns
+
+## 📊 Key Features
+- Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
-- Visualization of temperature trends
-- Machine Learning model for prediction
+- Visualization (trends, comparisons)
+- Linear Regression Model
+- Future Temperature Prediction
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
 
-## 🔮 Results
-The model shows a clear increasing trend in global temperature, indicating climate change impact.
+## 📈 Results
+- Clear upward trend in temperature observed
+- Model predicts continued rise in future
+- Confirms impact of climate change
 
-## 📁 Dataset
-Global Land Temperature Dataset (Kaggle)
+## 📂 Dataset
+Dataset is too large to upload.  
+Download from: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data
+
+## 🔮 Future Improvements
+- Add CO₂ emissions data
+- Use advanced ML models
+- Deploy using Streamlit
