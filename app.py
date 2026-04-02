@@ -3,13 +3,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-# Title
+
+
 st.title("🌍 Climate Change Analysis & Prediction")
 
-# Load data
-pd.read_csv("small_data.csv")
+# FIRST load data
+df = pd.read_csv("small_data.csv")
 
-# Data cleaning
+# THEN clean data
 df = df.dropna()
 df['dt'] = pd.to_datetime(df['dt'])
 df['year'] = df['dt'].dt.year
