@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 st.title("🌍 Climate Change Analysis & Prediction")
 
 # Load data
-df = pd.read_csv("GlobalLandTemperaturesByCity.csv")
+pd.read_csv("small_data.csv")
 
 # Data cleaning
 df = df.dropna()
